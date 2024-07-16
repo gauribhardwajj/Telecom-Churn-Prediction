@@ -12,5 +12,33 @@ Churn serves as a valuable measure of growth potential. It tracks the customers 
 - If your growth rate exceeds your churn rate, your business is expanding.
 - Conversely, if churn surpasses growth, your business is contracting.
 
-[For more details and understanding click here!](Understanding-Churn-Prediction-and-Modelling.pdf)
+# FINAL ACCURACY PERCENTAGE
+
+### 1. Decision Tree
+Before Hyperparameter Tuning - 72.4 %
+After Hyperparameter Tuning - 77.4 %
+
+### 2. Random Forest
+Before Hyperparameter Tuning - 80.3 %
+After Hyperparameter Tuning - 80.5 %
+
+### 1. Decision Tree
+Before Hyperparameter Tuning - 80.28 %
+After Hyperparameter Tuning - 80.48 %
+
+[For more details and understanding click here!](Understanding-Churn-Prediction.pdf)
+
+## Data Preprocessing Steps:
+- Convert data types of variable that are misclassified.
+- Remove Duplicate Records
+- Remove Unique Value Variables
+- Remove Zero Variance Variables
+- Outlier Treatment : 1) Boxplot- Q3(1.5* IQR) & Q1- (1.5*IQR)
+                      2) Standardization- +/- 3 Sigma Approach
+                      3) Capping & Flooring
+- Missing Value Treatment : 1) Remove records if NA's are less than 5%
+                            2) Remove if NA's are 50% in any variable
+                            3) Impute with Mean/Mode
+- Removing highly correlated variables
+- Removing Multicollinearity (VIF>5)
 
