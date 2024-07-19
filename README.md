@@ -26,7 +26,7 @@ After Hyperparameter Tuning - 80.5 %
 Before Hyperparameter Tuning - 80.28 %
 After Hyperparameter Tuning - 80.48 %
 
-[For more details and understanding click here!](Understanding-Churn-Prediction.pdf)
+[For more details and understanding click here!](Documentation.pdf)
 
 ## Data Preprocessing Steps:
 - Convert data types of variable that are misclassified.
