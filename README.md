@@ -1,16 +1,22 @@
 # Telecom-Churn-Prediction
 
-## What is Churn Rate?
+## Overview of the project
 
-Customer churn is the percentage of customers that stopped using your company’s product or service during a certain time frame.
+The Telecom Churn Prediction project aims to predict which customers are likely to churn (i.e., stop using the service) based on historical data. Churn prediction is crucial in industries like telecom, where customer retention is often cheaper than acquiring new customers.
 
-Churn rate is a key indicator of customer satisfaction:
-- A low churn rate signifies satisfied customers.
-- A high churn rate indicates that customers are leaving.
+### Key steps involved in the project:
+* **Data Preprocessing:** This includes handling missing values, encoding categorical variables (like customer segments), and normalizing continuous variables. By cleaning the dataset, the models can make more accurate predictions. <br>
+* **Feature Selection:** The dataset contains several features like tenure, monthly charges, and customer support calls. Feature selection helps identify which attributes contribute most to customer churn. <br>
+* **Model Training:** Various machine learning models, such as `Decision Trees, Random Forest, and Logistic Regression`, were trained. These models were chosen because they provide different trade-offs in terms of accuracy and interpretability.<br>
+* **Evaluation Metrics:** You evaluated models using `ROC-AUC, accuracy, and precision-recall` curves to ensure the models performed well across different metrics. Random Forest provided the best results with `~80% accuracy`.<br>
 
-Churn serves as a valuable measure of growth potential. It tracks the customers you lose, while growth rates track the new customers you gain. Analyzing these metrics together reveals your business's overall growth:
-- If your growth rate exceeds your churn rate, your business is expanding.
-- Conversely, if churn surpasses growth, your business is contracting.
+
+### Key Features:
+* Multiple Models: Trained and evaluated Decision Tree, Random Forest, and Logistic Regression. <br>
+* ROC Curve Comparison: Used ROC curves to visualize and compare model performance. <br>
+* Data Visualization: Plotted distributions of features like customer tenure, contract type, and churn status.<br>
+* Hyperparameter Tuning: Implemented grid search to fine-tune models and improve their accuracy.<br>
+
 
 # FINAL ACCURACY PERCENTAGE
 
